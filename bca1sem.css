@@ -1,0 +1,48 @@
+.sign{
+    margin-top: 40vh;
+    border: 2px solid black;
+    border-radius: 1vh;
+    background-color: silver;
+    margin-left: 7vh;
+    width: 40vh;
+    height: auto;
+}
+.sign .fill{
+    padding: 1vh;
+    display: grid;
+    grid-template-columns: auto;
+}
+.sign .fill input{
+    margin: 1vh;
+    text-align: center;
+    border: 2px solid black;
+}
+.sign .fill button{
+    background-color: rgb(71, 71, 234);
+    color: white;
+    font-weight: bold;    
+}
+.sign .fill button a{
+    text-decoration: none;
+    color: white;
+}
+.credit{
+    border: 5px solid black;
+    background-color: silver;
+    border-radius: 2vh;
+    width: 42vh;
+    margin-left: 5vh;
+    margin-top: 2vh;
+    padding-left: 1vh;
+    padding-right: 1vh;
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-size: 13px;
+    text-align: center;
+}
+.credit .jalva h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    /* border-bottom: 2px solid black; */
+    /* width: 40vh; */
+}
+/* https://indianmemetemplates.com/wp-content/uploads/kaisa-laga-mera-majak.jpg */
