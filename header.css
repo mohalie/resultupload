@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    /* border: 2px solid red; */
+    height: auto;
+}
+.navbar{
+    background-color: silver;
+    border-bottom: 2px solid black;
+    /* border: 2px solid green; */
+    height: auto;
+}
+.heading h1{
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+}
+.course-sem{
+    display: grid;
+    grid-template-columns: auto auto;
+    border-bottom: 2px solid black;
+}
+.course-sem{
+    /* display: grid; */
+    padding: 1vh;
+    border-top: 2px solid silver;
+    /* border: 2px solid blue; */
+}
+/* .course-sem .HM,.Bca, .Pharm{
+    width: auto;
+    margin-right: 5vh;
+    
+}
+.course-sem .dca,.Ai,.B-tech{
+    width: auto;
+    margin-right: 2vh;
+    
+}
+.course-sem .HM, .Bca, .Pharm{
+    margin-left: 2vh;
+} */
+.course-sem .Bca, .HM, .Ai, .dca, .Pharm, .B-tech{
+    /* margin-top: 1vh; */
+    margin: 2px;
+}
+.ads{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.note{
+    margin-top: 1vh;
+    border: 2px solid black;
+    background-color: rgb(180, 65, 65);
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.other{
+    margin-top: 1vh;
+}
+.other h1{
+    /* background-color: yellow; */
+    border: 1px solid black;
+    font-size: 3vh;
+}
